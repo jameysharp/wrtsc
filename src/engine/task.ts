@@ -199,7 +199,7 @@ export const OBSERVE_PATROL_ROUTES: Task = {
   name: "Observe Patrol Routes",
   shortName: "OBS_PTRL",
   baseCost: () => 3500,
-  description: "Learn the patrol routes of the Presever cleanup crew.",
+  description: "Learn the patrol routes of the Preserver cleanup crew.",
   flavor:
     "Tactical planning substrate suggests attacking during moments of isolation.",
   required: { progress: { ruinsExploration: 15 } },
